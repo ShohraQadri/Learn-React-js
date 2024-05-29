@@ -20,7 +20,7 @@ const ShowHideButton = () => {
     }
     return (
         <div style={{ borderBottom: "2px solid", marginBottom: "10px", paddingBottom: "10px" }} >
-            <h2 className='font-bold'>Show & hide</h2>
+            <h2 className='font-bold text-center pb-2'>Show & hide</h2>
             <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
                 <div style={{ flex: "1" }}>
                     <button onClick={ToggleButton} style={{ backgroundColor: "red", color: "white", padding: "10px ", boxShadow: "none" }}>Show / Hide</button>
