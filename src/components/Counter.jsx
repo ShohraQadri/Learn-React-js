@@ -30,7 +30,9 @@ function Counter() {
             <button className='border-2 p-1 px-4 me-2 bg-green-500' onClick={addValue}>Add </button>
             <button className='border-2 p-1 px-4 bg-green-300' onClick={removeValue}>Sub</button>
             <p className='pt-2'>Result : {counter}</p>
+
         </div>
+
     )
 }
 

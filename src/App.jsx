@@ -1,6 +1,7 @@
 import Counter from "./components/Counter"
 import ShowHideButton from "./components/ShowHideButton"
 import StopWatchTimer from "./components/StopWatchTimer"
+import ToDo from "./components/ToDo"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <ShowHideButton />
       <StopWatchTimer />
       <Counter />
+      <ToDo />
     </div>
   )
 }

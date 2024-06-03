@@ -18,7 +18,7 @@ function StopWatchTimer() {
 
     const StopTime = () => {
         clearInterval(window.myTimer);
-        setTimer(0)
+
     }
 
     // Reset timer
